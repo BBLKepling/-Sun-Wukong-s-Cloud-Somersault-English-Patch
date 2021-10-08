@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>筋斗云(Sun Wukong’s Cloud Somersault) English Patch</name>
+  <author>bblkepling</author>
+  <supportedVersions>
+    <li>1.3</li>
+  </supportedVersions>
+  <packageId>bblkepling.JindouyunEnglishPatch</packageId>
+  <description>From Google Translate:
+A somersault cloud. It can increase the speed of travel, and has no combat effectiveness, but it is very fleshy and basically indestructible.</description>
+  <modDependencies>
+    <li>
+      <packageId>anye.jindouyun</packageId>
+      <displayName>筋斗云</displayName>
+      <steamWorkshopUrl>steam://url/CommunityFilePage/2610529245</steamWorkshopUrl>
+    </li>
+  </modDependencies>
+  <loadAfter>
+    <li>anye.jindouyun</li>
+  </loadAfter>
+</ModMetaData>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/BodyDef[defName="jindouyunBody"]/label</xpath>
+    <value>
+      <label>Jindouyun</label>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/BodyPartDef[defName="jindouyunBlade"]/label</xpath>
+    <value>
+      <label>Cloud Body</label>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/BodyPartDef[defName="jindouyunCore"]/label</xpath>
+    <value>
+      <label>Cloud Core</label>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="jindouyun_Race"]/label</xpath>
+    <value>
+      <label>Jindouyun</label>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="jindouyun_Race"]/description</xpath>
+    <value>
+      <description>A living cloud.\n\nJindouyun are amazing mounts, much faster than horses, and if properly trained they can be ridden into battle at incredible speeds (this interaction needs the Giddy-Up, combat mounts mod, and it will make the Jindouyun move 5 times faster when used as mounts).</description>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="jindouyun_Race"]/tools/li/label[text()="云"]</xpath>
+    <value>
+      <label>cloud</label>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/PawnKindDef[defName="jindouyun"]/label</xpath>
+    <value>
+      <label>Jindouyun</label>
+    </value>
+  </Operation>
+
+</Patch>
